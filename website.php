@@ -17,15 +17,15 @@
   <div class="nav">
     <ul>
       <li>
-        <a class="tekst2" href="heden.html">Heden</a>
+        <a class="tekst2" href="heden.php">Heden</a>
       </li>
       <li>
         <a class="tekst1" href="verleden.php">Verleden</a>
       </li>
       <li>
-        <a class="tekst3" href="toekomst.html">Toekomst</a>
+        <a class="tekst3" href="toekomst.php">Toekomst</a>
       </li>
-      <li><a class="tekst4" href="./prestaties.html">Prestaties</a></li>
+      <li><a class="tekst4" href="./prestaties.php">Prestaties</a></li>
     </ul>
   </div>
   <div class="wrapper">

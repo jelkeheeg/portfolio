@@ -14,8 +14,8 @@ $database = "portfolio";
 
  if (isset($_POST['submit'])) {
  $tekst = $_POST['edit_tekst'];
- $query = "UPDATE portfolio SET tekst = :tekst WHERE id = 2";
- //$query = "INSERT INTO portfolio (tekst) VALUES (id, $tekst) WHERE id = 2";
+ $query = "UPDATE portfolio SET tekst = :tekst WHERE id = 5";
+ //$query = "INSERT INTO portfolio (tekst) VALUES (id, $tekst) WHERE id = 1";
  
  $statement = $conn->prepare($query);
  
@@ -25,7 +25,7 @@ $database = "portfolio";
 
  }
 
-$sql_query = ("SELECT tekst FROM portfolio WHERE id = 2");
+$sql_query = ("SELECT tekst FROM portfolio WHERE id = 5");
 
 $statement = $conn->prepare($sql_query);
 
@@ -55,7 +55,7 @@ echo $result[0];
   <body>
     <div class="MainBody">
     <div class="Form">
-          <form action="verledencms.php" method="POST" id="website_form">
+          <form action="prestatiescms.php" method="POST" id="website_form">
               <!-- <fieldset> -->
               <!-- <legend>Item</legend> -->
                 <!-- <label for="edit_tekst">Itemnaam</label> -->

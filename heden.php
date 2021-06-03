@@ -32,9 +32,9 @@
     <a class="tekst2" href="verleden.php">Verleden</a>
   </li>
   <li>
-    <a class="tekst3" href="toekomst.html">Toekomst</a>
+    <a class="tekst3" href="toekomst.php">Toekomst</a>
   </li>
-  <li><a class="tekst4" href="./prestaties.html">Prestaties</a></li>
+  <li><a class="tekst4" href="./prestaties.php">Prestaties</a></li>
 </ul>
   <p>Tegenwoordig doe ik een opleiding Software Developer op <a href="https://www.rocfriesepoort.nl/" target="_blank">
       ROC Friesepoort.</a>. Ik heb nog niet veel ervaring met coderen dus het is allemaal nog nieuw voor mij, maar ik heb
@@ -50,3 +50,36 @@
     doen. Ik hoef me tenminste nooit te vervelen.</p>
 
 </body>
+</html>
+
+
+<?php
+$host = "localhost";
+$username = "root";
+$password = "";
+$database = "portfolio";
+
+
+
+ $conn = new PDO("mysql:host=$host;dbname=$database", $username, $password);
+ // set the PDO error mode to exception
+ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+$sql_query = ("SELECT tekst FROM portfolio WHERE id = 2");
+
+$statement = $conn->prepare($sql_query);
+
+$statement->execute(array(
+    
+    
+    
+    
+));
+$result = $statement->fetch();
+//$result = $result[0];
+echo '<div class= "hello">';
+ echo $result[0];
+  '</div>'
+//$result[0] = isset($_POST['result']) ? $_POST['result'] : '';
+    ?>
+  

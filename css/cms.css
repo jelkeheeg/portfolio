@@ -1,6 +1,7 @@
 body{
- background:rgb(2, 37, 2);
-color: white;
+ 
+color: white; 
+background-color: aqua;
 }
 
 input
@@ -55,6 +56,18 @@ input
 
 }
 
+.autoExpand {
+
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+
+  padding: 10px;
+  width: 20px;
+  font-size: 20px;
+
+}
+
 .linkslist li a:hover {
 
   transition: transform .7s;
@@ -93,4 +106,7 @@ input
   text-align: center;
   line-height: 5px;
   display: block;
+}
+.site{
+  background-color: black;
 }

@@ -14,15 +14,15 @@
 </div>
 <ul>
   <li>
-    <a class="tekst2" href="heden.html">Heden</a>
+    <a class="tekst2" href="heden.php">Heden</a>
   </li>
   <li>
     <a class="tekst1" href="website.php">Home</a>
   </li>
   <li>
-    <a class="tekst3" href="toekomst.html">Toekomst</a>
+    <a class="tekst3" href="toekomst.php">Toekomst</a>
   </li>
-  <li><a class="tekst4" href="./prestaties.html">Prestaties</a></li>
+  <li><a class="tekst4" href="./prestaties.php">Prestaties</a></li>
 </ul>
   <!-- <p>Ik ben 17 jaar geleden geboren in het dorp Oenkerk, het dorp waar ik tot nu toe woon. Ik woon hier met mijn vader 
     en mijn moeder.
@@ -39,7 +39,7 @@
     maar ik heb het toen helaas niet gehaald.
     Daarna moest ik een keuze maken tussen nog een jaar HAVO 4 of naar een MBO opleiding. Het leek mij beter een MBO
     opleiding te doen, omdat ik niet veel motivatie meer over had voor de HAVO.
-    Nu zit ik op de opleiding Software Developer op <a href="https://www.rocfriesepoort.nl/" target="_blank"> ROC
+    Nu zit ik op de opleiding Software Developer op ROC
       Friesepoort.</a></p> -->
 
  
