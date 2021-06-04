@@ -51,9 +51,9 @@ echo $result[0];
       <title>CMS Main</title>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="stylesheet" href="/portfolio/css/cms.css">
+      <link rel="stylesheet" href="\portfolio\css\cms.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script type="text/javascript" src="/portfolio/scripts/script.js"></script>
+      <!-- <script type="text/javascript" src="/portfolio/scripts/script.js"></script> -->
   </head>
   <body>
     <div class="MainBody">
@@ -63,7 +63,7 @@ echo $result[0];
               <!-- <legend>Item</legend> -->
                 <!-- <label for="edit_tekst">Itemnaam</label> -->
                 <!-- <textarea type="text" rows="20" cols="40" id="edit_tekst"  value=""  wrap="hard"> </textarea> -->
-                <input type="text" class="autoExpand" placeholder="Itemnaam" id="edit_tekst" rows="1" data-min-rows="1" value="<?php echo $result[0]; ?>" name="edit_tekst" autofocus>
+                <input type="text"  placeholder="Itemnaam" id="edit_tekst"   value="<?php echo $result[0]; ?>" name="edit_tekst" autofocus>
                 <input type="submit" onclick="website_form[1].submit()" name="submit" value="Commit change.">
                 
           </form>
@@ -73,7 +73,7 @@ echo $result[0];
       <div class="sidenav">
         <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
         <ul class="linkslist">
-        <div class="site"> <li><a href="cms.php">website</a></li> </div>
+         <li><a href="cms.php">website</a></li> 
         <li><a href="hedencms.php">heden</a></li>
         <li><a href="verledencms.php">verleden</a></li>
         <li><a href="toekomstcms.php">toekomst</a></li>
@@ -84,7 +84,10 @@ echo $result[0];
       <!-- Use any element to open the sidenav -->
       <!-- <span onclick="openNav()">open</span> -->
 
+<style> body{
+  background-color:gray;
 
-    </div>
+}
+  </style>  </div>
   </body>
 </html>
