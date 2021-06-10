@@ -1,10 +1,12 @@
 body{
- 
+  background-color:  rgb(224, 237, 241);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background: linear-gradient(90deg, rgba(82,183,136,1) 35%, rgb(0,119,182) 100%);
 color: white; 
-background-color: grey;
 }
 
-input
+textarea
 {
     vertical-align: text-top;
     color: black;
@@ -14,8 +16,26 @@ input
     width: auto; /* Making auto-sizable width */
     height: auto; /* Making auto-sizable height */
     padding: 5px 30px 5px 30px; /* Making space around letters */
+     position:sticky; 
+    align-items: center;
+    resize: both;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+    padding: 1px 6px;
+   width: 994px;
+    height: 174px;
+    display: block;
+    /* height: 229px; */
+     /* margin: 100px; */
+      /* max-width: 654px; */
+       /* width: 653px; */
 }
+input{
 
+  margin-top: 20px;
+  margin-right:100px;
+}
 .sidenav
 {
   text-align: right; 
@@ -44,7 +64,7 @@ input
 }
 
 .linkslist li a {
-
+position: relative;
   text-decoration: none;
   color: white;
   border-radius: 5px;
@@ -106,4 +126,9 @@ input
   text-align: center;
   line-height: 5px;
   display: block;
+}
+
+
+h1{
+  text-align: center;
 }

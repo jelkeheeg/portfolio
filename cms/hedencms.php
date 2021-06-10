@@ -38,7 +38,7 @@ $statement->execute(array(
 $result = $statement->fetch();
 //$result = $result[0];
 
-echo $result[0];
+// echo $result[0];
 
 //$result[0] = isset($_POST['result']) ? $_POST['result'] : '';
     ?>
@@ -53,14 +53,15 @@ echo $result[0];
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+  <h1>heden</h1>
     <div class="MainBody">
     <div class="Form">
           <form action="hedencms.php" method="POST" id="website_form">
               <!-- <fieldset> -->
               <!-- <legend>Item</legend> -->
                 <!-- <label for="edit_tekst">Itemnaam</label> -->
-                <input type="text" placeholder="Itemnaam" id="edit_tekst"  value="<?php echo $result[0]; ?>" name="edit_tekst" required>
-                <input type="submit" onclick="website_form[1].submit()" name="submit" value="Commit change.">
+                <textarea type="text" placeholder="Itemnaam"  id="edit_tekst" name="edit_tekst" autofocus><?php echo $result[0]; ?> </textarea>
+                <input type="submit" onclick="website_form[1].submit()"  name="submit" value="Commit change.">
           </form>
       </div>
       

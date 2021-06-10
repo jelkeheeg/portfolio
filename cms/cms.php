@@ -40,7 +40,7 @@ $statement->execute(array(
 $result = $statement->fetch();
 //$result = $result[0];
 
-echo $result[0];
+// echo $result[0];
 
 //$result[0] = isset($_POST['result']) ? $_POST['result'] : '';
     ?>
@@ -56,6 +56,7 @@ echo $result[0];
       <!-- <script type="text/javascript" src="/portfolio/scripts/script.js"></script> -->
   </head>
   <body>
+  <h1>main</h1>
     <div class="MainBody">
     <div class="Form">
           <form action="cms.php" method="POST" id="website_form">
@@ -63,9 +64,9 @@ echo $result[0];
               <!-- <legend>Item</legend> -->
                 <!-- <label for="edit_tekst">Itemnaam</label> -->
                 <!-- <textarea type="text" rows="20" cols="40" id="edit_tekst"  value=""  wrap="hard"> </textarea> -->
-                <input type="text"  placeholder="Itemnaam" id="edit_tekst"   value="<?php echo $result[0]; ?>" name="edit_tekst" autofocus>
-                <input type="submit" onclick="website_form[1].submit()" name="submit" value="Commit change.">
-                
+                <textarea type="text" placeholder="Itemnaam"  id="edit_tekst" name="edit_tekst" autofocus><?php echo $result[0]; ?> </textarea>
+                <input type="submit" onclick="website_form[1].submit()"  name="submit" value="Commit change.">
+      
           </form>
       </div>
 

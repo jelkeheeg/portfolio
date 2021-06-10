@@ -4,15 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/website.css">
+  <!-- <link rel="stylesheet" href="/portfolio/css/website.css"> -->
+  <style> body {background-image: url('Images\kleurblauw.webp'); }</style>
+  <link rel="stylesheet" href="css\website.css">
   <title>Jelke zijn webiste.</title>
+  <link rel='icon' href='' type='image/x-icon'/>
 </head>
 
 <body>
+  <div class="pic">
+<img src="Images\jelkeportfolio.jpeg" alt="jelke"  >
+</div>
+<div class= "sprong">
+<img src="Images\jelke spring.jpg" alt="sprong"  >
+</div> 
+
+
+
 
   <div class="header">
-    <h1>Website over Jelke</h1>
-
+    <h1>OVER JELKE_</h1>
   </div>
   <div class="nav">
     <ul>
